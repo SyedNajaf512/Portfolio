@@ -15,14 +15,14 @@ const projects = [
     {
         title: "E-Commerce Platform",
         description: "A full-scale e-commerce application with real-time inventory, secure payments, and an admin dashboard. Optimized for performance and sales conversion.",
-        tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind CSS"],
+        tags: ["Node.js", "Stripe", "SQL", "Tailwind CSS"],
         links: { demo: "#", code: "#" },
         gradient: "from-purple-500/20 to-pink-500/20",
     },
     {
         title: "Marketing Analytics Dashboard",
         description: "Data visualization tool for digital marketing campaigns, utilizing AI to predict trends and optimize ad spend across multiple platforms.",
-        tags: ["React", "D3.js", "AI Predictive Model", "Node.js"],
+        tags: ["React", "AI Predictive Model", "Node.js"],
         links: { demo: "#", code: "#" },
         gradient: "from-orange-500/20 to-red-500/20",
     },

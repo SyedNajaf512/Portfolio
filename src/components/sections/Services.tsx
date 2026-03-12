@@ -1,31 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Bot, Megaphone, PenTool } from "lucide-react";
+import { Monitor, Server, Terminal } from "lucide-react";
 
 const services = [
     {
-        icon: <Code className="w-10 h-10 text-primary" />,
-        title: "Full Stack Development",
-        description: "Building scalable, high-performance web applications using Next.js, React, Node.js, and modern databases.",
+        icon: <Monitor className="w-10 h-10 text-primary" />,
+        title: "Frontend Development",
+        description: "Crafting responsive, high-performance user interfaces using React, and Tailwind CSS within the MERN stack.",
         gradient: "from-primary/20 to-primary/5",
     },
     {
-        icon: <Bot className="w-10 h-10 text-accent" />,
-        title: "AI Integration",
-        description: "Leveraging Large Language Models (LLMs) and custom AI solutions to automate workflows and enhance user experiences.",
+        icon: <Server className="w-10 h-10 text-accent" />,
+        title: "Backend Development",
+        description: "Building scalable server-side applications, RESTful APIs, and managing databases with Node.js and MongoDB.",
         gradient: "from-accent/20 to-accent/5",
     },
     {
-        icon: <Megaphone className="w-10 h-10 text-pink-500" />,
+        icon: <Server className="w-10 h-10 text-accent" />,
         title: "Digital Marketing",
-        description: "Data-driven strategies to boost online presence, optimize conversions, and grow your brand audience effectively.",
-        gradient: "from-pink-500/20 to-pink-500/5",
     },
     {
-        icon: <PenTool className="w-10 h-10 text-orange-500" />,
-        title: "AI Content Creation",
-        description: "High-quality, SEO-optimized content generation powered by advanced AI tools and human creativity.",
+        icon: <Terminal className="w-10 h-10 text-orange-500" />,
+        title: "Python Development",
+        description: "Experience in developing automation scripts, data processing tasks, and backend logic with Python.",
         gradient: "from-orange-500/20 to-orange-500/5",
     },
 ];
